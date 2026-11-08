@@ -9,8 +9,8 @@ import { useRef, useState } from "react";
 import Markdown from "react-markdown";
 import rehypeKatex from "rehype-katex";
 import remarkMath from "remark-math";
-import { Named, Onboard } from "vibe-together-web/onboard";
-import { useSession } from "vibe-together-web/react";
+import { Named, Onboard } from "vibetogether-web/onboard";
+import { useSession } from "vibetogether-web/react";
 import { Badge } from "@/components/ui/badge.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Textarea } from "@/components/ui/textarea.tsx";
@@ -204,7 +204,7 @@ function Item({
 	}
 	// Other protocols' entries, such as voice's, are for the parts that
 	// speak them.
-	if (entry.type.startsWith("application/vnd.vibe-together.")) return null;
+	if (entry.type.startsWith("application/vnd.vibetogether.")) return null;
 	const mine = entry.from === session.name;
 	const bubble = mine
 		? "max-w-[80%] rounded-lg bg-primary px-3 py-2 whitespace-pre-wrap text-primary-foreground"
