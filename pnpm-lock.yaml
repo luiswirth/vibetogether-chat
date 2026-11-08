@@ -52,7 +52,7 @@ importers:
         version: 1.4.0
       vibe-together-web:
         specifier: github:luiswirth/vibe-together-web
-        version: https://codeload.github.com/luiswirth/vibe-together-web/tar.gz/12ca8d8fbb885bc62b418d9da2144db9d2aff6a0(agentwire@https://codeload.github.com/luiswirth/agentwire/tar.gz/5bc97f2b02a7f52c6ee35d070f27cc43db0381ed)(react@19.3.1)
+        version: https://codeload.github.com/luiswirth/vibe-together-web/tar.gz/db57eaedfb000f1b17e269d478d252f9b4ef48c3(agentwire@https://codeload.github.com/luiswirth/agentwire/tar.gz/5bc97f2b02a7f52c6ee35d070f27cc43db0381ed)(react@19.3.1)
     devDependencies:
       '@tailwindcss/typography':
         specifier: ^0.5.20
@@ -2371,8 +2371,8 @@ packages:
   vfile@6.0.3:
     resolution: {integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==}
 
-  vibe-together-web@https://codeload.github.com/luiswirth/vibe-together-web/tar.gz/12ca8d8fbb885bc62b418d9da2144db9d2aff6a0:
-    resolution: {gitHosted: true, integrity: sha512-VjZOShLZfmn1sp1/pRH1eptn2lZXfyhp+WOXkgmZm01Me+qvR6aurl7MAGrmvftsVHkhmfgy0EaQQkqqU9w3ZA==, tarball: https://codeload.github.com/luiswirth/vibe-together-web/tar.gz/12ca8d8fbb885bc62b418d9da2144db9d2aff6a0}
+  vibe-together-web@https://codeload.github.com/luiswirth/vibe-together-web/tar.gz/db57eaedfb000f1b17e269d478d252f9b4ef48c3:
+    resolution: {gitHosted: true, integrity: sha512-JAIMe7Kwd9zBm1JYeOpQdcnJd7EAzLdsWluxmL0sLhoaR7rlkLBCq/KjW5zmYtiFUNky6qjyutlQjKL6Q4CO4A==, tarball: https://codeload.github.com/luiswirth/vibe-together-web/tar.gz/db57eaedfb000f1b17e269d478d252f9b4ef48c3}
     version: 0.0.0
     peerDependencies:
       agentwire: github:luiswirth/agentwire
@@ -4815,7 +4815,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-  vibe-together-web@https://codeload.github.com/luiswirth/vibe-together-web/tar.gz/12ca8d8fbb885bc62b418d9da2144db9d2aff6a0(agentwire@https://codeload.github.com/luiswirth/agentwire/tar.gz/5bc97f2b02a7f52c6ee35d070f27cc43db0381ed)(react@19.3.1):
+  vibe-together-web@https://codeload.github.com/luiswirth/vibe-together-web/tar.gz/db57eaedfb000f1b17e269d478d252f9b4ef48c3(agentwire@https://codeload.github.com/luiswirth/agentwire/tar.gz/5bc97f2b02a7f52c6ee35d070f27cc43db0381ed)(react@19.3.1):
     dependencies:
       agentwire: https://codeload.github.com/luiswirth/agentwire/tar.gz/5bc97f2b02a7f52c6ee35d070f27cc43db0381ed
       react: 19.3.1
